@@ -1,14 +1,389 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
   <title>EscritorLanding</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
 
 <%= yield %>
 
-</body>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>NYC - Design Studio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+    
+  <!-- Menu -->
+  <nav class="menu" id="theMenu">
+    <div class="menu-wrap">
+      <h1 class="logo"><a href="index.html#home">DSGN NYC</a></h1>
+      <i class="fa fa-times menu-close"></i>
+      <a href="#home" class="smoothScroll">Home</a>
+      <a href="#about" class="smoothScroll">About</a>
+      <a href="#portfolio" class="smoothScroll">Portfolio</a>
+      <a href="#services" class="smoothScroll">Services</a>
+      <a href="#contact" class="smoothScroll">Contact</a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+    </div>
+    
+    <!-- Menu button -->
+    <div id="menuToggle"><i class="fa fa-bars"></i></div>
+  </nav>
+
+  <section id="home" name="home"></section>
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1><img src="http://i69.photobucket.com/albums/i68/2372911/bannertransparente_zps2dc07979.png"></h1>
+          <h2>El mundo necesita leer lo que solo tú puedes escribir. </h2>
+        </div>
+      </div><!--/row -->
+    </div><!--/container -->
+  </div><!--/headerwrap -->
+  
+  <section id="about" name="about"></section>
+  <div id="aboutwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 name">
+          <img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/icontypewriter_zps739d3fcf.png">
+          <p>Escritor.Co</p>
+          <div class="name-label"></div>
+        </div><!--/col-lg-4-->
+        <div class="col-lg-8 name-desc">
+          <h2>EL MUNDO ESPERA A CONOCER <br/>TUS PENSAMIENTOS, TUS IDEAS  <br/> Y TUS HISTORIAS.</h2>
+          <div class="name-zig"></div>
+          
+          <div class="col-md-6">
+            <p>El mundo  nunca conocerá todo lo que tienes para contar si no lo escribes. Escritor.Co te ayudará a lograrlo. Queremos leer lo que tienes que contar.</p>
+            <p>Nuestros cursos te llevarán por los diferentes pasos para mejorar tu escritura. Nuestros ejercicios impulsarán tu genio creador y te llevarán a traer a la vida todas las palabras que llevas dentro.</p>
+          </div>
+          <div class="col-md-6">
+            <p>Aquí, tus palabras tienen un lugar. Las palabras transforman vidas, enamoran y hieren. Las palabras tienen mucho poder y tu las tienes en tus manos.</p>
+            <p>Aventúrate al más grande viaje de convertirte en escritor. Nosotros te acompañaremos desde el inicio.</p>
+          </div>
+          
+        </div><!--/col-lg-8-->
+    
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </div><!-- /aboutwrap -->
+  
+  <!-- ABOUT SEPARATOR -->
+  <div class="sep about" data-stellar-background-ratio="0.5"></div>
+  
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" name="portfolio"></section>
+  <div id="portfoliowrap">
+    <div class="container">
+      <div class="row">
+        <h1>NUESTROS CURSOS</h1>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="port04.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/escrituracreativa_zpse5cdfb44.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="assets/img/portfolio/port05.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/armandotunovela_zps91b99056.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="assets/img/portfolio/port06.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/escrituraparablogs_zpse970a394.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+      </div><!-- /row -->
+  
+      <div class="row mt">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="assets/img/portfolio/port01.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/redaccio3010n_zps0e652362.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="assets/img/portfolio/port02.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/bootcamp_zpsb0f819a8.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+          <div class="project-wrapper">
+                      <div class="project">
+                          <div class="photo-wrapper">
+                              <div class="photo">
+                                <a class="fancybox" href="assets/img/portfolio/port03.jpg"><img class="img-responsive" src="http://i69.photobucket.com/albums/i68/2372911/escrituradecuentos_zps15df0422.png" alt=""></a>
+                              </div>
+                              <div class="overlay"></div>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- col-lg-4 -->
+      </div><!-- /row -->
+    </div><!--/container -->
+    <div class="container">
+      <div class="row mt centered">
+        <h1>CÓMO FUNCIONAN</h1>
+        <div class="col-lg-4 proc">
+          <i class="fa fa-coffee"></i>
+          <h3>LOS EJERCICIOS</h3>
+          <p>Cada curso está conformado por una serie de ejercicios que debes ir realizando. Todos son ejercicios de escritura que te ayudarán a mejorarla y practicarla.</p>
+        </div>
+        <div class="col-lg-4 proc">
+          <i class="fa fa-pencil-square"></i>
+          <h3>TÚ ESCRIBES</h3>
+          <p>Un escritor es aquel que escribe. Así que scribe, escribe, escribe y continúa escribiendo. Nuestros ejercicios se enfocan en esto.</p>
+        </div>
+        <div class="col-lg-4 proc">
+          <i class="fa fa-magic"></i>
+          <h3>CONTINÚA ESCRIBIENDO</h3>
+          <p>Cuando hayas terminado los cursos tendrás las herramientas para poder lanzarte y escribir eso que siempre has querido hacer. ¿Una novela?, ¿un blog?, ¿una carta de renuncia? Todo lo que quieras escribir podrás hacerlo de manera más fácil.</p>
+        </div>
+        
+      </div><!--/row -->
+    </div><!--/container -->
+  </div><!--/Portfoliowrap -->
+
+  <!-- PORTFOLIO SEPARATOR -->
+  <div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+  
+  
+  <!-- SERVICE SECTION -->
+  <!--section id="services" name="services"></section>
+  <div id="servicewrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8-offset-2 centered">
+          <h1>AN OVERVIEW OF MY SERVICES</h1>
+          <h3>I'll do all the work for you</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div></col-lg-8 -->
+      <!--/div></row -->
+      
+      <!--div class="row mt">
+        <div class="col-lg-3 service">
+          <i class="fa fa-star"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-cloud"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-shield"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-heart"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+      </div></row -->
+      <!--div class="row mt">
+        <div class="col-lg-3 service">
+          <i class="fa fa-trophy"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-globe"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-lock"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+        <div class="col-lg-3 service">
+          <i class="fa fa-thumbs-up"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+          <p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+        </div>
+      </div><!/row -->
+      
+    <!--/div><!-/container -->
+  <!--/div><!-/servicewrap -->
+  
+  <!--div id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 mt">
+        
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-Wrapper for slides -->
+            <!--div class="carousel-inner">
+              <div class="item active mb centered">
+                <h3>MARK WEBBER</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><img class="img-circle" src="assets/img/pic-t1.jpg" width="80"></p>
+              </div>
+
+              <div class="item mb centered">
+                <h3>PAUL LEVINGSTON</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><img class="img-circle" src="assets/img/pic-t2.jpg" width="80"></p>
+              </div>
+
+              <div class="item mb centered">
+                <h3>LUCY LENNIN</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><img class="img-circle" src="assets/img/pic-t3.jpg" width="80"></p>
+              </div>
+
+            </div>
+            <!-Indicators -->
+            <!--ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          </div>
+            
+        </div></col-lg-8 -->
+      <!--/div><!/row -->
+    <!--/div><!/container -->
+  <!--/div><!/testimonials -->
+  
+  <!-- SERVICE SECTION -->
+  <section id="contact" name="contact"></section>
+  <!-- CONTACT SEPARATOR -->
+  <!--div class="sep contact" data-stellar-background-ratio="0.5"></div-->
+  
+  <div id="contactwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>¡Contáctanos!</p>
+          <ul class="list-inline">
+            <li>
+                <a href="https://www.facebook.com/escritor.Co" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>                   
+            <li>
+                <a href="https://twitter.com/EscritorCo" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="mailto:andrea@escritor.co" class="btn-social btn-outline"><i class="fa fa-envelope"></i></a>
+            </li>
+           </ul>
+          <p>
+            <small>Hecho con <i class="fa fa-heart"></i> en<br/>
+            Sacatepéquez, Guatemala<br/>
+            </small>
+          </p>
+          <p>
+            <small>Copyright &copy; Escritor.Co 2014-2015<br/>
+            <br/>
+          </p>
+      
+        </div>
+        
+        <div class="col-lg-6">
+          <form role="form">
+            <div class="form-group">
+              <label for="exampleInputName1">Tu nombre</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa tu nombre">
+              <label for="exampleInputEmail1">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa tu correo electrónico">
+              <label for="exampleInputText1">Mensaje</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </div>
+      
+      </div><! --/row -->
+    </div><!-- /container -->
+  </div>
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+  <script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+  <script src="assets/js/main.js"></script>
+    <script>
+    $(function(){
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+      });
+    });
+    </script>
+    
+    <script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+     </script>
+
+  </body>
 </html>
