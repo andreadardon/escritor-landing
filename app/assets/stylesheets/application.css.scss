@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-  background: asset-url("writer.jpg") no-repeat center top;
+  background: asset-url("writing.jpg") no-repeat center top;
   margin-top: 0px;
   padding-top:120px;
   text-align:center;
@@ -297,6 +297,9 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 2px 2px 2px #000;
 }
 
+#intro {
+  color: #fff;
+}
 /* About Wrap & Conf */
 #aboutwrap {
   margin-top: 80px;
@@ -346,7 +349,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .about {
-  background-image: image-url('about-sep.jpg');
+  background-image: image-url('letters.jpg');
+  background-size:contain;
 }
 
 /* Portfolio Wrap Section */
@@ -385,7 +389,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-  background-image: image-url('portfolio-sep.jpg');
+  background-image: image-url('pencil.jpg');
+  background-size:contain;
 }
 
 /* Service Wrap */
